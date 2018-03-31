@@ -7,7 +7,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>Library</OutputType>
     <RootNamespace>com.edgewords.specflow.nunit</RootNamespace>
-    <AssemblyName>com.edgewords.specflow.nunit</AssemblyName>
+    <AssemblyName>com-edgewords-specflow-nunit</AssemblyName>
     <RanorexVersion>8.1</RanorexVersion>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>

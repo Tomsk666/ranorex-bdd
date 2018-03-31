@@ -1,16 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <modulegroupdoc
-rxversion="8.0">
-  <testsuiteentryhierarchy>
-    <flatlistofchildren>
-      <modulegroups
-      name="com.edgewords.specflow.nunit"
-      id="c2175290-52a6-4fee-af95-42bf2c86ca7b"/>
-    </flatlistofchildren>
-    <childhierarchy>
-      <modulegroups
-      name="com.edgewords.specflow.nunit"
-      id="c2175290-52a6-4fee-af95-42bf2c86ca7b"/>
-    </childhierarchy>
-  </testsuiteentryhierarchy>
+rxversion="8.1">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+			id="c2175290-52a6-4fee-af95-42bf2c86ca7b"
+			name="com.edgewords.specflow.nunit">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="c2175290-52a6-4fee-af95-42bf2c86ca7b"
+			name="com.edgewords.specflow.nunit">
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
 </modulegroupdoc>

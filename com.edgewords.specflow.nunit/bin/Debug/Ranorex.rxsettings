@@ -1,5 +1,6 @@
-﻿<configuration
-rxversion="8.0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration
+rxversion="8.1">
 	<adapter.defaultsearchtimeout>
 		10000ms
 	</adapter.defaultsearchtimeout>

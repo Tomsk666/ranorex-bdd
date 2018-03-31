@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Ranorex = .\Ranorex.rxsettings
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.edgewords.specflow.nunit", "com.edgewords.specflow.nunit\com.edgewords.specflow.nunit.csproj", "{ADE814C5-4161-4D13-B3DF-ED5F39422A5C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com-edgewords-specflow-nunit", "com.edgewords.specflow.nunit\com-edgewords-specflow-nunit.csproj", "{ADE814C5-4161-4D13-B3DF-ED5F39422A5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

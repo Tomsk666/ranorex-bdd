@@ -1,0 +1,13 @@
+C:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\bin\Debug\com.edgewords.specflow.nunit.rxtmg
+C:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\bin\Debug\com.edgewords.specflow.nunit.rxtst
+C:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\bin\Debug\com-edgewords-specflow-nunit.dll.config
+C:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\bin\Debug\com-edgewords-specflow-nunit.dll
+C:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\bin\Debug\com-edgewords-specflow-nunit.pdb
+C:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\bin\Debug\nunit.framework.dll
+C:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\bin\Debug\nunit.framework.pdb
+C:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\bin\Debug\nunit.framework.xml
+C:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\obj\Debug\com-edgewords-specflow-nunit.csprojResolveAssemblyReference.cache
+C:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\obj\Debug\com-edgewords-specflow-nunit.dll
+C:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\obj\Debug\com-edgewords-specflow-nunit.pdb
