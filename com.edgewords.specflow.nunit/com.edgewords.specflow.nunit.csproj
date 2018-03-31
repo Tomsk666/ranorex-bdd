@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{ADE814C5-4161-4D13-B3DF-ED5F39422A5C}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>com.edgewords.specflow.nunit</RootNamespace>
+    <AssemblyName>com.edgewords.specflow.nunit</AssemblyName>
+    <RanorexVersion>8.1</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>8f081b1a-4227-482e-957d-9c16c6f29027</projectdefaultrepository>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\NUnit.org\Nunit.Framework-3.10.1\bin\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="TechTalk.SpecFlow">
+      <HintPath>..\packages\SpecFlow.1.9.0\lib\net35\TechTalk.SpecFlow.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>19206074-e957-4f56-8c6a-72f3d64cdd4d</id>
+    </Compile>
+    <Compile Include="com.edgewords.specflow.nunitRepository.cs">
+      <BoundTo>8f081b1a-4227-482e-957d-9c16c6f29027</BoundTo>
+      <DependentUpon>com.edgewords.specflow.nunitRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>e43033fc-1fce-44b4-a7a5-8fc406691984</id>
+    </Compile>
+    <Compile Include="features\DemoFeature.feature.cs">
+      <BoundTo>d1c8226e-f315-4d3f-8d9c-d4967d0f457a</BoundTo>
+      <DependentUpon>DemoFeature.feature</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <id>204cdf1a-782a-418e-8dd7-73cea888715a</id>
+    </Compile>
+    <Compile Include="features\SimpleFeature.feature.cs">
+      <BoundTo>ee293ea1-560f-4242-a1fb-5dc4bbf51bf1</BoundTo>
+      <DependentUpon>SimpleFeature.feature</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <id>cc4afc10-90cc-4447-bc90-0f49872aabd1</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>cd918e88-0c10-4233-972a-31e7499bdda4</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>4d199c32-bac5-4fa5-bbf1-24e9a97e7523</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>72a4b59b-bc9c-4f67-9706-7e5c4afe732e</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>4d199c32-bac5-4fa5-bbf1-24e9a97e7523</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8a3e8865-fb45-45f1-b614-48fd1a66a2fa</id>
+    </Compile>
+    <Compile Include="steps\FixtureSteps.cs">
+      <id>dd50d230-55f9-4e3f-9ab5-fe29f2593ba3</id>
+    </Compile>
+    <Compile Include="steps\WebSiteSteps.cs">
+      <id>cc1d8f88-4df9-463f-ba53-a1c0903f1eac</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>35649500-a15a-4f7e-9489-643ab60ae57f</id>
+    </None>
+    <None Include="com.edgewords.specflow.nunitRepository.rximg">
+      <BoundTo>8f081b1a-4227-482e-957d-9c16c6f29027</BoundTo>
+      <DependentUpon>com.edgewords.specflow.nunitRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>08369e7e-7b37-407b-99fa-c22071ab40de</id>
+    </None>
+    <None Include="com.edgewords.specflow.nunitRepository.rxrep">
+      <id>8f081b1a-4227-482e-957d-9c16c6f29027</id>
+      <repoid>2382e4cf-f64a-47cc-959b-4d3883667835</repoid>
+      <reporootid>0dc356a7-8a4f-481c-8507-54f330156e85</reporootid>
+    </None>
+    <None Include="features\DemoFeature.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <id>d1c8226e-f315-4d3f-8d9c-d4967d0f457a</id>
+      <LastGenOutput>DemoFeature.feature.cs</LastGenOutput>
+    </None>
+    <None Include="features\SimpleFeature.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <id>ee293ea1-560f-4242-a1fb-5dc4bbf51bf1</id>
+      <LastGenOutput>SimpleFeature.feature.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config">
+      <id>ed35fac0-247b-4f72-a313-8b3757b7f870</id>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>8f081b1a-4227-482e-957d-9c16c6f29027</BoundTo>
+      <id>4d199c32-bac5-4fa5-bbf1-24e9a97e7523</id>
+      <recordtableid>64fcf7ed-4bac-45e2-85a5-e23cc9fcdc9b</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="com.edgewords.specflow.nunit.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>96a4f4bb-b2f3-4086-aec8-4480b9445035</id>
+    </Content>
+    <Content Include="com.edgewords.specflow.nunit.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>483e9972-9c55-4313-999f-162091bd9f4a</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="features">
+      <id>bcb9158f-12f5-4a61-a33a-fe47bf238acf</id>
+    </Folder>
+    <Folder Include="steps">
+      <id>a1857a68-9437-48c1-84fb-f61ef3bc4990</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

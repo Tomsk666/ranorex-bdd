@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="1" engine-version="3.8.0.0" clr-version="4.0.30319.42000" start-time="2018-03-22 15:36:00Z" end-time="2018-03-22 15:36:13Z" duration="13.114380">
+  <command-line><![CDATA[nunit3-console  com.edgewords.specflow.nunit.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1004" name="com.edgewords.specflow.nunit.dll" fullname="C:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\bin\Debug\com.edgewords.specflow.nunit.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-03-22 15:36:01Z" end-time="2018-03-22 15:36:13Z" duration="12.216319" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.10.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.16299.0" platform="Win32NT" cwd="C:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\bin\Debug" machine-name="TMLAPFUJITSU" user="Tom" user-domain="TMlapFujitsu" culture="en-GB" uiculture="en-US" os-architecture="x86" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\bin\Debug" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="True" />
+      <setting name="RunAsX86" value="True" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="ApartmentState" value="STA" />
+      <property name="_PID" value="6992" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1005" name="com" fullname="com" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-03-22 15:36:01Z" end-time="2018-03-22 15:36:13Z" duration="12.194965" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+      <test-suite type="TestSuite" id="0-1006" name="edgewords" fullname="com.edgewords" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-03-22 15:36:01Z" end-time="2018-03-22 15:36:13Z" duration="12.194159" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <test-suite type="TestSuite" id="0-1007" name="specflow" fullname="com.edgewords.specflow" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-03-22 15:36:01Z" end-time="2018-03-22 15:36:13Z" duration="12.192299" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-suite type="TestSuite" id="0-1008" name="nunit" fullname="com.edgewords.specflow.nunit" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-03-22 15:36:01Z" end-time="2018-03-22 15:36:13Z" duration="12.192162" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <test-suite type="TestSuite" id="0-1009" name="Features" fullname="com.edgewords.specflow.nunit.Features" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-03-22 15:36:01Z" end-time="2018-03-22 15:36:13Z" duration="12.189946" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+              <test-suite type="TestFixture" id="0-1000" name="FixtureCheckFeature" fullname="com.edgewords.specflow.nunit.Features.FixtureCheckFeature" classname="com.edgewords.specflow.nunit.Features.FixtureCheckFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-03-22 15:36:01Z" end-time="2018-03-22 15:36:02Z" duration="1.618889" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+                <properties>
+                  <property name="Description" value="Fixture Check" />
+                </properties>
+                <test-case id="0-1001" name="NewFixtureSettings" fullname="com.edgewords.specflow.nunit.Features.FixtureCheckFeature.NewFixtureSettings" methodname="NewFixtureSettings" classname="com.edgewords.specflow.nunit.Features.FixtureCheckFeature" runstate="Runnable" seed="1969197465" result="Passed" start-time="2018-03-22 15:36:01Z" end-time="2018-03-22 15:36:02Z" duration="1.327610" asserts="0">
+                  <properties>
+                    <property name="Description" value="New Fixture Settings" />
+                  </properties>
+                  <output><![CDATA[When I open the Site
+[2018/03/22 15:36:02.653][Debug  ][Logger]: Console logger starting.
+[2018/03/22 15:36:02.684][Info   ][User]: Opening The site
+-> done: FixtureSteps.GivenIHaveEnteredSomethingIntoTheCalculator() (1.2s)
+Then it opens
+[2018/03/22 15:36:02.684][Info   ][User]: IT worked
+-> done: FixtureSteps.ThenTheResultShouldBe() (0.0s)
+]]></output>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" id="0-1002" name="WebSiteFeatureFeature" fullname="com.edgewords.specflow.nunit.Features.WebSiteFeatureFeature" classname="com.edgewords.specflow.nunit.Features.WebSiteFeatureFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-03-22 15:36:02Z" end-time="2018-03-22 15:36:13Z" duration="10.553333" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+                <properties>
+                  <property name="Description" value="WebSite Feature" />
+                </properties>
+                <test-case id="0-1003" name="LoginTest" fullname="com.edgewords.specflow.nunit.Features.WebSiteFeatureFeature.LoginTest" methodname="LoginTest" classname="com.edgewords.specflow.nunit.Features.WebSiteFeatureFeature" runstate="Runnable" seed="21800279" result="Passed" start-time="2018-03-22 15:36:02Z" end-time="2018-03-22 15:36:13Z" duration="10.549810" asserts="1">
+                  <properties>
+                    <property name="Description" value="Login test" />
+                  </properties>
+                  <output><![CDATA[When I log into the web site
+[2018/03/22 15:36:02.856][Info   ][Website]: Opening web site 'http://www.edgewordstraining.co.uk/training-site/index.html' with browser 'chrome' in normal mode.
+[2018/03/22 15:36:04.722][Info   ][Mouse]: Mouse Left Click item 'AutomatedToolsTestSite.SomeUlTag.Home' at 15;10.
+[2018/03/22 15:36:08.107][Info   ][Mouse]: Mouse Left Click item 'AutomatedToolsTestSite.SomeUlTag.BasicHTML' at 30;7.
+[2018/03/22 15:36:09.357][Info   ][Mouse]: Mouse Left Click item 'AutomatedToolsTestSite.SomeUlTag.Forms' at 21;11.
+[2018/03/22 15:36:10.625][Info   ][Mouse]: Mouse Left Click item 'Forms.Home' at 24;12.
+-> done: WebSiteSteps.WhenIPressAdd() (9.1s)
+Then it appears OK
+-> done: WebSiteSteps.ThenTheResultShouldBe() (1.4s)
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

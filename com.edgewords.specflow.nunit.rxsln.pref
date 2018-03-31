@@ -1,0 +1,14 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{ADE814C5-4161-4D13-B3DF-ED5F39422A5C}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>64fcf7ed-4bac-45e2-85a5-e23cc9fcdc9b</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution com.edgewords.specflow.nunit[com.edgewords.specflow.nunit[features[DemoFeature.feature[]SimpleFeature.feature[]]steps[]]]]&#xD;&#xA;Solution com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit.rxtst&#xD;&#xA;Solution com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\features" />
+  <StartupProject value="{ADE814C5-4161-4D13-B3DF-ED5F39422A5C}" />
+</Properties>

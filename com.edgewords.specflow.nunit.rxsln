@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# Ranorex Studio 8.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{71A5BE84-2F02-4D91-8C5C-96DCC513B5A4}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.edgewords.specflow.nunit", "com.edgewords.specflow.nunit\com.edgewords.specflow.nunit.csproj", "{ADE814C5-4161-4D13-B3DF-ED5F39422A5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADE814C5-4161-4D13-B3DF-ED5F39422A5C}.Debug|x86.Build.0 = Debug|x86
+		{ADE814C5-4161-4D13-B3DF-ED5F39422A5C}.Debug|x86.ActiveCfg = Debug|x86
+		{ADE814C5-4161-4D13-B3DF-ED5F39422A5C}.Release|x86.Build.0 = Release|x86
+		{ADE814C5-4161-4D13-B3DF-ED5F39422A5C}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

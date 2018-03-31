@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ae7ae2fb825c6f4"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Tom"
+		rxversion="8.0.1.0"
+		host="TMLAPFUJITSU"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-GB"
+		screenresolution="1920x1080"
+		timestamp="22/03/2018 15:32:50"
+		timestampiso="2018-03-22T15:32:50"
+		endtime="22/03/2018 15:33:16"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.131"
+			timeRelativeToTestModuleStartTime="00:00.131"
+			timeWallClock="15:32:50"
+			time="00:00.131"
+			level="Info"
+			category="User">
+			<message>
+				Opening The site
+			</message>
+			<metainfo
+				codefile="c:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\steps\FixtureSteps.cs"
+				codeline="20"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.147"
+			timeRelativeToTestModuleStartTime="00:00.147"
+			timeWallClock="15:32:50"
+			time="00:00.147"
+			level="Info"
+			category="User">
+			<message>
+				IT worked
+			</message>
+			<metainfo
+				codefile="c:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\steps\FixtureSteps.cs"
+				codeline="27"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.303"
+			timeRelativeToTestModuleStartTime="00:00.303"
+			timeWallClock="15:32:50"
+			time="00:00.303"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://www.edgewordstraining.co.uk/training-site/index.html' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.584"
+			timeRelativeToTestModuleStartTime="00:00.584"
+			timeWallClock="15:32:50"
+			time="00:00.584"
+			level="Warn"
+			category="Automation">
+			<message>
+				The apartment state of the current thread is not set to STA. Please make sure that all threads accessing Ranorex methods have their apartment state set to STA.
+			</message>
+			<metainfo
+				codefile="c:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\Recording1.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.077"
+			timeRelativeToTestModuleStartTime="00:02.077"
+			timeWallClock="15:32:52"
+			time="00:02.077"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AutomatedToolsTestSite.SomeUlTag.Home' at 15;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='Automated Tools Test Site']//div[#'menu']/ul//span[@innertext='Home']"
+				itempath=".//span[@innertext='Home']"
+				fullname="com_edgewords_specflow_nunitRepository.AutomatedToolsTestSite.SomeUlTag.Home"
+				id="b52bedee37a1494bab45ff6f2d7323cc"
+				timeout="90000"
+				codefile="c:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.440"
+			timeRelativeToTestModuleStartTime="00:05.440"
+			timeWallClock="15:32:55"
+			time="00:05.440"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AutomatedToolsTestSite.SomeUlTag.BasicHTML' at 30;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='Automated Tools Test Site']//div[#'menu']/ul//span[@innertext='Basic HTML']"
+				itempath=".//span[@innertext='Basic HTML']"
+				fullname="com_edgewords_specflow_nunitRepository.AutomatedToolsTestSite.SomeUlTag.BasicHTML"
+				id="969b1e5529a844bfacc682d6564286ce"
+				timeout="90000"
+				codefile="c:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.717"
+			timeRelativeToTestModuleStartTime="00:06.717"
+			timeWallClock="15:32:57"
+			time="00:06.717"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AutomatedToolsTestSite.SomeUlTag.Forms' at 21;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='Automated Tools Test Site']//div[#'menu']/ul//span[@innertext='Forms']"
+				itempath=".//span[@innertext='Forms']"
+				fullname="com_edgewords_specflow_nunitRepository.AutomatedToolsTestSite.SomeUlTag.Forms"
+				id="610fbd19e61f44e5b282e2184b0b23fa"
+				timeout="90000"
+				codefile="c:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.000"
+			timeRelativeToTestModuleStartTime="00:08.000"
+			timeWallClock="15:32:58"
+			time="00:08.000"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Forms.Home' at 24;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='Forms']//div[#'menu']/ul//span[@innertext='Home']"
+				itempath=".//div[#'menu']/ul//span[@innertext='Home']"
+				fullname="com_edgewords_specflow_nunitRepository.Forms.Home"
+				id="bdef04fe17da4f1c973fd58d7f2f17a4"
+				timeout="60000"
+				codefile="c:\Users\Tom\Documents\Ranorex\RanorexStudio Projects\com.edgewords.specflow.nunit\com.edgewords.specflow.nunit\Recording1.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

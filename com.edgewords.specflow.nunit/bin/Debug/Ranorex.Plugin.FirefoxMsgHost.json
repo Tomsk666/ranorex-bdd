@@ -1,0 +1,7 @@
+﻿{
+    "name": "com.ranorex.msghost",
+    "description": "Ranorex Firefox Message Host",
+    "path": "Ranorex.Plugin.FirefoxMsgHost.exe",
+    "type": "stdio",
+    "allowed_extensions": [ "extension@ranorex.com" ]
+}
